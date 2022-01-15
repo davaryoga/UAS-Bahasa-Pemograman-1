@@ -1,4 +1,4 @@
-from view.view_nilai import *
+from view import *
 
 
 def menu():

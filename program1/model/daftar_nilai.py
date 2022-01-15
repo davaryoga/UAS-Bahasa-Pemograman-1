@@ -24,7 +24,7 @@ def ubah_data():
         nilaiUas = input_nilaiUas()
         nilaiAkhir = (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)
         dataMahasiswa[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
-        print("\nData Berhasil Di Update!")
+        print("\nData Berhasil Di Ubah!")
     else:
         print("Data tidak ditemukan!")
 
